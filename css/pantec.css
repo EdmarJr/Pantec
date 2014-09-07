@@ -2,3 +2,62 @@
     background: url("../img/menu/pedacoBackGroundMenu.png") repeat-x;
     border-color:transparent;
 }
+
+.linkMenu {
+    display: flex !important;
+}
+
+.logoMenu {
+    width:202px; /*width of your image*/
+    height:58px; /*height of your image*/
+    background-image:url('../img/menu/icones/logoPantec.png');
+}
+
+.icone-servicos {
+    margin-right: 5%;
+    width:28px; /*width of your image*/
+    height:22px; /*height of your image*/
+    background-image:url('../img/menu/icones/servicos.png');
+}
+
+.icone-contato{
+    margin-right: 5%;
+    width:25px; /*width of your image*/
+    height:18px; /*height of your image*/
+    background-image:url('../img/menu/icones/contato.png');
+}
+
+.icone-inicio{
+    margin-right: 5%;
+    width:24px; /*width of your image*/
+    height:16px; /*height of your image*/
+    background-image:url('../img/menu/icones/home.png');
+}
+
+.icone-empresa{
+    margin-right: 5%;
+    width:22px; /*width of your image*/
+    height:18px; /*height of your image*/
+    background-image:url('../img/menu/icones/empresa.png');
+}
+
+.navbar-brand-pantec {
+    float: left;
+    /* padding: 19.5px 15px; */
+    font-size: 19px;
+    line-height: 21px;
+    height: 60px;
+}
+
+.row-pantec{
+    margin-left:-15px;
+    margin-right:-15px;
+    margin-top: -120px;
+    background-color: black;
+}
+
+.logoPantec {
+    width:419px; /*width of your image*/
+    height:124px; /*height of your image*/
+    background-image:url('../img/inicio/logoPantec.png');
+}
