@@ -60,4 +60,84 @@
     width:419px; /*width of your image*/
     height:124px; /*height of your image*/
     background-image:url('../img/inicio/logoPantec.png');
+    margin: 25% 0  0 10%;
+}
+
+.textoGrandeInicio {
+    font-size: -webkit-xxx-large;
+    margin-bottom: 3%;
+    color: #f09700;
+    padding-left:10%;
+    padding-right:10%;
+}
+
+.itensTextoInicio {
+    color: #ef4e23;
+    font-family: Trebuchet MS;
+    font-size: x-large;
+    font-weight: bold;
+    white-space: nowrap;
+    width: 100%;
+    float: right;
+}
+
+.divContainerTextoGrandeESeta {
+   display: flex;
+    width: 33%;
+}
+
+.icone-seta-laranjada{
+    margin-right: 2%;
+    margin-top: 11px;
+    width:13px; /*width of your image*/
+    height:15px; /*height of your image*/
+    background-image:url('../img/inicio/setaLaranjada.png');
+}
+
+.containerTextos {
+    padding-left:13%;display: -webkit-inline-box; width: 100%;
+    margin-bottom: 2%;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+header li {
+    display: flex;
+    width: 100%;
+    margin-right: 5%;
+}
+
+.containerComFundoPGigante {
+    margin-top: -10%;
+    width: 100%;
+    background: url("../img/empresa/pGigante.png") no-repeat;
+    min-height: 1000px;
+}
+
+.tituloEmpresa {
+    float: right;
+    display: -webkit-inline-box;
+    color: #5c686d;
+}
+
+.tituloEmpresatexto{
+    font-family: HandelGothic BT;
+    font-size: larger;
+}
+
+.icone-engrenagem{
+    margin-right: 5%;
+    width:28px; /*width of your image*/
+    height:27px; /*height of your image*/
+    background-image:url('../img/empresa/iconeEngrenagem.png');
+}
+
+.icone-seta-amarela-invertida{
+    margin: -4% 0% 0% 5%;
+    width:35px; /*width of your image*/
+    height:42px; /*height of your image*/
+    background-image:url('../img/empresa/iconeSetaAmarelaInvertida.png');
 }
