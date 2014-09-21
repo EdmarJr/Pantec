@@ -20,6 +20,40 @@
     background-image:url('../img/menu/icones/servicos.png');
 }
 
+
+.icone-telefone{
+    margin-right: 5%;
+    width:29px; /*width of your image*/
+    height:29px; /*height of your image*/
+    background-image:url('../img/contato/icone-telefone.png');
+}
+
+.linhaInformacoesContato {
+    display: -webkit-inline-box;
+}
+
+.icone-celular{
+    margin-right: 5%;
+    width:29px; /*width of your image*/
+    height:29px; /*height of your image*/
+    background-image:url('../img/contato/icone-celular.png');
+}
+
+.icone-facebook{
+    margin-right: 5%;
+    width:29px; /*width of your image*/
+    height:29px; /*height of your image*/
+    background-image:url('../img/contato/icone-facebook.png');
+}
+
+
+.icone-email{
+    margin-right: 5%;
+    width:29px; /*width of your image*/
+    height:29px; /*height of your image*/
+    background-image:url('../img/contato/icone-email.png');
+}
+
 .icone-contato{
     margin-right: 5%;
     width:25px; /*width of your image*/
@@ -125,14 +159,15 @@ header li {
     min-height: 534px;
 }
 
-.headerServicos {
+.headerSection{
     background: black;
-    min-height: 100px;
+    min-height: 50px;
+    width: 100%;
     margin-top: -10%;
 }
 .footerServicos {
     background: black;
-    min-height: 100px;
+    min-height: 200px;
 
 }
 
